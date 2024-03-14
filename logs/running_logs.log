@@ -96,3 +96,146 @@ zipfile.BadZipFile: File is not a zip file
 [2024-03-13 15:51:32,660: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
 
 x=========x]
+[2024-03-14 12:15:01,360: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-03-14 12:15:01,373: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:15:01,382: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:15:01,385: INFO: common: created directory at: artifacts]
+[2024-03-14 12:15:01,385: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 12:15:01,389: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file (zip_download_dir)]
+[2024-03-14 12:15:45,027: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2024-03-14 12:15:46,418: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x=========x]
+[2024-03-14 12:15:46,418: INFO: main: ***************]
+[2024-03-14 12:15:46,418: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:15:46,418: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:15:46,436: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:15:46,438: INFO: common: created directory at: artifacts]
+[2024-03-14 12:15:46,438: ERROR: main: name 'get_prepare_base_model_config' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_02_Prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config,get_prepare_base_model_config()
+NameError: name 'get_prepare_base_model_config' is not defined
+[2024-03-14 12:18:25,342: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-03-14 12:18:25,358: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:18:25,358: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:18:25,358: INFO: common: created directory at: artifacts]
+[2024-03-14 12:18:25,367: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 12:18:25,368: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file (zip_download_dir)]
+[2024-03-14 12:19:22,085: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2024-03-14 12:19:23,339: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x=========x]
+[2024-03-14 12:19:23,347: INFO: main: ***************]
+[2024-03-14 12:19:23,347: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:19:23,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:19:23,357: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:19:23,359: INFO: common: created directory at: artifacts]
+[2024-03-14 12:19:23,360: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-14 12:19:23,361: ERROR: main: __init__() got an unexpected keyword argument 'Params_weights']
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_02_Prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 35, in get_prepare_base_model_config
+    prepare_base_model_config = PrepareBaseModelConfig(
+TypeError: __init__() got an unexpected keyword argument 'Params_weights'
+[2024-03-14 12:21:13,541: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-03-14 12:21:13,541: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:21:13,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:21:13,541: INFO: common: created directory at: artifacts]
+[2024-03-14 12:21:13,554: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 12:21:13,555: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file (zip_download_dir)]
+[2024-03-14 12:21:56,027: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2024-03-14 12:21:57,725: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x=========x]
+[2024-03-14 12:21:57,725: INFO: main: ***************]
+[2024-03-14 12:21:57,725: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:21:57,725: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:21:57,736: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:21:57,736: INFO: common: created directory at: artifacts]
+[2024-03-14 12:21:57,736: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-14 12:21:57,736: ERROR: main: 'ConfigurationManager' object has no attribute 'prepare_base_model_config']
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_02_Prepare_base_model.py", line 14, in main
+    prepare_base_model = prepareBaseModel(config.prepare_base_model_config)
+AttributeError: 'ConfigurationManager' object has no attribute 'prepare_base_model_config'
+[2024-03-14 12:24:41,500: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-03-14 12:24:41,515: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:24:41,515: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:24:41,515: INFO: common: created directory at: artifacts]
+[2024-03-14 12:24:41,520: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 12:24:41,521: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file (zip_download_dir)]
+[2024-03-14 12:25:21,836: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2024-03-14 12:25:23,045: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x=========x]
+[2024-03-14 12:25:23,045: INFO: main: ***************]
+[2024-03-14 12:25:23,045: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:25:23,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:25:23,058: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:25:23,058: INFO: common: created directory at: artifacts]
+[2024-03-14 12:25:23,059: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-14 12:25:23,060: ERROR: main: 'ConfigurationManager' object has no attribute 'prepare_base_model_config']
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_02_Prepare_base_model.py", line 14, in main
+    prepare_base_model = prepareBaseModel(config.prepare_base_model_config)
+AttributeError: 'ConfigurationManager' object has no attribute 'prepare_base_model_config'
+[2024-03-14 12:27:12,761: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-03-14 12:27:12,769: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:27:12,778: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:27:12,780: INFO: common: created directory at: artifacts]
+[2024-03-14 12:27:12,782: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 12:27:12,784: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file (zip_download_dir)]
+[2024-03-14 12:27:49,286: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1n5q946zaHqUxjAil7vZf_5MtNqbKuCvB/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2024-03-14 12:27:50,808: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x=========x]
+[2024-03-14 12:27:50,808: INFO: main: ***************]
+[2024-03-14 12:27:50,808: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:27:50,818: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:27:50,828: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:27:50,830: INFO: common: created directory at: artifacts]
+[2024-03-14 12:27:50,833: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-14 12:27:50,834: ERROR: main: 'ConfigurationManager' object has no attribute 'prepare_base_model_config']
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_02_Prepare_base_model.py", line 14, in main
+    prepare_base_model = prepareBaseModel(config.prepare_base_model_config)
+AttributeError: 'ConfigurationManager' object has no attribute 'prepare_base_model_config'
+[2024-03-14 12:35:45,888: INFO: main: ***************]
+[2024-03-14 12:35:45,888: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:35:45,888: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:35:45,888: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:35:45,888: INFO: common: created directory at: artifacts]
+[2024-03-14 12:35:45,901: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-14 12:35:45,908: ERROR: main: The `weights` argument should be either `None` (random initialization), `imagenet` (pre-training on ImageNet), or the path to the weights file to be loaded.  Received: weights=Imagenet]
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_02_Prepare_base_model.py", line 15, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\components\prepare_base_model.py", line 13, in get_base_model
+    self.model = tf.keras.applications.vgg16.VGG16(
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\keras\applications\vgg16.py", line 122, in VGG16
+    raise ValueError(
+ValueError: The `weights` argument should be either `None` (random initialization), `imagenet` (pre-training on ImageNet), or the path to the weights file to be loaded.  Received: weights=Imagenet
+[2024-03-14 12:38:32,088: INFO: main: ***************]
+[2024-03-14 12:38:32,088: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:38:32,088: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 12:38:32,103: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 12:38:32,105: INFO: common: created directory at: artifacts]
+[2024-03-14 12:38:32,105: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-14 12:38:34,176: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-14 12:38:34,787: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x=========x]
