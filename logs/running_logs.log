@@ -239,3 +239,153 @@ ValueError: The `weights` argument should be either `None` (random initializatio
 [2024-03-14 12:38:34,787: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
 
 x=========x]
+[2024-03-14 15:46:38,972: INFO: main: **************]
+[2024-03-14 15:46:38,972: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 15:46:38,988: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:46:39,007: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:46:39,010: INFO: common: created directory at: artifacts]
+[2024-03-14 15:46:39,010: ERROR: main: expected str, bytes or os.PathLike object, not list]
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 14, in main
+    training_config = config.get_training_config()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 54, in get_training_config
+    Path([training.root_dir])
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\pathlib.py", line 1042, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\pathlib.py", line 683, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not list
+[2024-03-14 16:13:49,812: INFO: main: **************]
+[2024-03-14 16:13:49,812: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:13:49,820: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:13:49,820: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:13:49,820: INFO: common: created directory at: artifacts]
+[2024-03-14 16:13:49,826: ERROR: main: expected str, bytes or os.PathLike object, not list]
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 14, in main
+    training_config = config.get_training_config()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 54, in get_training_config
+    Path([training.root_dir])
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\pathlib.py", line 1042, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\pathlib.py", line 683, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not list
+[2024-03-14 16:24:23,724: INFO: main: **************]
+[2024-03-14 16:24:23,724: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:24:23,734: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:24:23,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:24:23,739: INFO: common: created directory at: artifacts]
+[2024-03-14 16:24:23,739: ERROR: main: Argument path_to_directories of type <class 'pathlib.WindowsPath'> to <function create_directories at 0x000002C1343F2040> does not match annotation type <class 'list'>]
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 14, in main
+    training_config = config.get_training_config()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 53, in get_training_config
+    create_directories(Path(training.root_dir)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\ensure\main.py", line 803, in __call__
+    raise EnsureError(msg.format(
+ensure.main.EnsureError: Argument path_to_directories of type <class 'pathlib.WindowsPath'> to <function create_directories at 0x000002C1343F2040> does not match annotation type <class 'list'>
+[2024-03-14 16:28:25,692: INFO: main: **************]
+[2024-03-14 16:28:25,707: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:28:25,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:28:25,714: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:28:25,715: INFO: common: created directory at: artifacts]
+[2024-03-14 16:28:25,716: INFO: common: created directory at: artifacts\training]
+[2024-03-14 16:28:25,716: ERROR: main: __init__() got an unexpected keyword argument 'updated_base_model']
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 14, in main
+    training_config = config.get_training_config()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 56, in get_training_config
+    training_config = TrainingConfig(
+TypeError: __init__() got an unexpected keyword argument 'updated_base_model'
+[2024-03-14 16:31:37,679: INFO: main: **************]
+[2024-03-14 16:31:37,679: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:31:37,679: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:31:37,679: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:31:37,679: INFO: common: created directory at: artifacts]
+[2024-03-14 16:31:37,695: INFO: common: created directory at: artifacts\training]
+[2024-03-14 16:31:37,696: ERROR: main: __init__() got an unexpected keyword argument 'training_data']
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 14, in main
+    training_config = config.get_training_config()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 57, in get_training_config
+    training_config = TrainingConfig(
+TypeError: __init__() got an unexpected keyword argument 'training_data'
+[2024-03-14 16:35:36,471: INFO: main: **************]
+[2024-03-14 16:35:36,471: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:35:36,487: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:35:36,511: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:35:36,514: INFO: common: created directory at: artifacts]
+[2024-03-14 16:35:36,517: INFO: common: created directory at: artifacts\training]
+[2024-03-14 16:35:36,519: ERROR: main: __init__() got an unexpected keyword argument 'training_data']
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 18, in main
+    training_config = config.get_training_config()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 57, in get_training_config
+    training_config = TrainingConfig(
+TypeError: __init__() got an unexpected keyword argument 'training_data'
+[2024-03-14 16:39:02,765: INFO: main: **************]
+[2024-03-14 16:39:02,765: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:39:02,782: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:39:02,787: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:39:02,788: INFO: common: created directory at: artifacts]
+[2024-03-14 16:39:02,788: INFO: common: created directory at: artifacts\training]
+[2024-03-14 16:39:03,902: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 21, in main
+    training.train_valid_generator()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\components\model_training.py", line 34, in train_valid_generator
+    self.valid_generator=valid_datagenerator.flow_from_directory(
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney-ct-scan-image'
+[2024-03-14 16:41:46,993: INFO: main: **************]
+[2024-03-14 16:41:46,993: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:41:47,008: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:41:47,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:41:47,014: INFO: common: created directory at: artifacts]
+[2024-03-14 16:41:47,015: INFO: common: created directory at: artifacts\training]
+[2024-03-14 16:41:48,040: ERROR: main: train() missing 1 required positional argument: 'callback_list']
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    obj.main()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 22, in main
+    training.train()
+TypeError: train() missing 1 required positional argument: 'callback_list'
+[2024-03-14 16:43:03,569: INFO: main: **************]
+[2024-03-14 16:43:03,569: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-14 16:43:03,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 16:43:03,569: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 16:43:03,569: INFO: common: created directory at: artifacts]
+[2024-03-14 16:43:03,580: INFO: common: created directory at: artifacts\training]
+[2024-03-15 10:33:10,979: INFO: main: **************]
+[2024-03-15 10:33:10,979: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-15 10:33:10,979: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 10:33:11,010: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 10:33:11,011: INFO: common: created directory at: artifacts]
+[2024-03-15 10:33:11,012: INFO: common: created directory at: artifacts\training]
+[2024-03-15 11:04:39,700: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-03-15 11:04:43,634: INFO: builder_impl: Assets written to: artifacts\training\model.hs\assets]
+[2024-03-15 11:04:43,962: INFO: main: >>>>>>>> stage Training Stage completed <<<<<<<<
+
+x==============x]
