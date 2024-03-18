@@ -3,4 +3,10 @@ cython_debug/
 
 
 artifacts/*
+
 research/*
+
+mlruns/*
+
+dvc.lock
+
