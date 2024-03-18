@@ -1,6 +1,5 @@
 # Kidney-Disease-Classification
 
-
 ## Workflows
 
 1.Update config.yaml
@@ -27,23 +26,23 @@ STEPS:
 ### Clone the repository
 
 https://github.com/feyisayoav/Kidney-Disease-Classification
-## STEP 01- Create a conda environment after opening the repository
+#### STEP 01- Create a conda environment after opening the repository
 
 conda create -n cnncls python=3.8 -y
 
 conda activate cnncls
-## STEP 02- install the requirements
+#### STEP 02- install the requirements
 
 pip install -r requirements.txt
-### Finally run the following command
+#### Finally run the following command
 
 python app.py
 
-#### Now,
+Now,
 
-### open up you local host and port
+open up you local host and port
 
-## DVC cmd
+DVC cmd
 
 dvc init
 
@@ -52,3 +51,23 @@ dvc repro
 dvc dag
 
 data link: https://drive.google.com/file/d/1_y7Yhg9ozIO6OyKP8lZEeGGa3NEz1iut/view?usp=sharing
+
+## MLFLOW
+-mlflow ui
+
+
+### Dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/feyisayoav/Kidney-Disease-Classification.mlflow \
+MLFLOW_TRACKING_USERNAME=feyisayoav \
+MLFLOW_TRACKING_PASSWORD=************************
+python script.py
+
+Run this to export as env varaible
+
+....bash
+
+export MLFLOW_TRACKING_URL=https://dagshub.com/feyisayoav/Kidney-Disease-Classification
+export MLFLOW_TRACKING_USERNAME=feyisayoav
+export MLFLOW_TRACKING_PASSWORD=********************

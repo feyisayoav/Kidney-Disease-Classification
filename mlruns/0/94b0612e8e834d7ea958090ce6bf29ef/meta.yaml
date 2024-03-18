@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/USER/Downloads/MLops%20Projects/Kidney-Disease-Classification/mlruns/0/94b0612e8e834d7ea958090ce6bf29ef/artifacts
+end_time: 1710516863981
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 94b0612e8e834d7ea958090ce6bf29ef
+run_name: bouncy-shrimp-231
+run_uuid: 94b0612e8e834d7ea958090ce6bf29ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710516841001
+status: 3
+tags: []
+user_id: USER

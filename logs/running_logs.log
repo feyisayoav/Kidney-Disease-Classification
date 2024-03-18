@@ -389,3 +389,18 @@ TypeError: train() missing 1 required positional argument: 'callback_list'
 [2024-03-15 11:04:43,962: INFO: main: >>>>>>>> stage Training Stage completed <<<<<<<<
 
 x==============x]
+[2024-03-15 15:22:50,567: INFO: main: **************]
+[2024-03-15 15:22:50,567: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-15 15:22:50,567: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 15:22:50,586: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 15:22:50,589: INFO: common: created directory at: artifacts]
+[2024-03-15 15:22:50,591: INFO: common: created directory at: artifacts\training]
+[2024-03-15 15:37:47,868: INFO: main: **************]
+[2024-03-15 15:37:47,868: INFO: main: >>>>>>>> stage Training Stage started <<<<<<<<]
+[2024-03-15 15:37:47,885: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 15:37:47,895: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 15:37:47,896: INFO: common: created directory at: artifacts]
+[2024-03-15 15:37:47,898: INFO: common: created directory at: artifacts\training]
+[2024-03-15 15:57:20,945: INFO: main: >>>>>>>> stage Training Stage completed <<<<<<<<
+
+x==============x]
