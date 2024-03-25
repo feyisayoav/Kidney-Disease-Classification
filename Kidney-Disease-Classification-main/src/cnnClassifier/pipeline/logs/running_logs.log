@@ -1,0 +1,17 @@
+[2024-03-14 12:33:55,057: INFO: stage_02_prepare_base_model: ***************]
+[2024-03-14 12:33:55,057: INFO: stage_02_prepare_base_model: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2024-03-14 12:33:55,057: ERROR: stage_02_prepare_base_model: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "stage_02_prepare_base_model.py", line 24, in <module>
+    obj.main()
+  File "stage_02_prepare_base_model.py", line 12, in main
+    config = ConfigurationManager()
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 11, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\utils\common.py", line 36, in read_yaml
+    raise e
+  File "c:\users\user\downloads\mlops projects\kidney-disease-classification\src\cnnClassifier\utils\common.py", line 29, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/feyisayoav/Kidney-Disease-Classification
+Author: feyisayoav
+Author-email: vickdemodu@gmail.com
+Project-URL: Bug Tracker, https://github.com/feyisayoav/Kidney-Disease-Classification/issues
+License-File: LICENSE
+
+# Kidney-Disease-Classification

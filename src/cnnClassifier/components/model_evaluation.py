@@ -2,7 +2,7 @@ import os
 import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
-from cnnClassifier.entity.config_entity import EvaluationConfig
+from cnnClassifier.entity.config_entity import EvaluationConfig,TrainingConfig
 from pathlib import Path
 import time
 import tensorflow as tf
@@ -57,4 +57,3 @@ class Evaluation:
         scores = {"loss": self.score[0], "accuracy": self.score[1]}
         save_json(path=Path("scores.json"), data=scores)
 
-    
