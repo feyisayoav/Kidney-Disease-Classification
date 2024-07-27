@@ -50,7 +50,7 @@ dvc repro
 
 dvc dag
 
-data link: https://drive.google.com/file/d/1_y7Yhg9ozIO6OyKP8lZEeGGa3NEz1iut/view?usp=sharing
+data link: https://drive.google.com/file/d/***************************************************
 
 ## MLFLOW
 -mlflow ui
@@ -60,7 +60,7 @@ data link: https://drive.google.com/file/d/1_y7Yhg9ozIO6OyKP8lZEeGGa3NEz1iut/vie
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/feyisayoav/Kidney-Disease-Classification.mlflow \
-MLFLOW_TRACKING_USERNAME=feyisayoav \
+MLFLOW_TRACKING_USERNAME=******** \
 MLFLOW_TRACKING_PASSWORD=************************
 python script.py
 
@@ -69,5 +69,5 @@ Run this to export as env varaible
 ....bash
 
 export MLFLOW_TRACKING_URL=https://dagshub.com/feyisayoav/Kidney-Disease-Classification
-export MLFLOW_TRACKING_USERNAME=feyisayoav
+export MLFLOW_TRACKING_USERNAME=*********
 export MLFLOW_TRACKING_PASSWORD=********************
